@@ -47,3 +47,6 @@ gem 'devise'
 gem 'bootstrap', '~> 5.1.3'
 gem 'jquery-rails'
 gem "sassc-rails"
+gem 'toastr-rails'
+gem 'omniauth'
+gem 'omniauth-twitter'
