@@ -50,3 +50,6 @@ gem "sassc-rails"
 gem 'toastr-rails'
 gem 'omniauth'
 gem 'omniauth-twitter'
+gem 'carrierwave'
+gem 'cloudinary'
+gem 'figaro'
