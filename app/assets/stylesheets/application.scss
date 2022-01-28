@@ -377,6 +377,7 @@ footer .nav-item {
     background-position: -325px -329px;
     height: 24px;
     width: 24px;
+    margin-left: 10px
 }
 
 .loved {
@@ -394,4 +395,19 @@ footer .nav-item {
     @extend .love;
     background-position: -150px -353px;
     margin-left: auto;
+}
+
+.comment-list {
+    height: 310px;
+    overflow: auto;
+}
+
+.post-show-img {
+    background-color: #fafafa;
+    margin: -10px 0;
+}
+
+.delete-post-icon {
+    color: #262626;
+    font-size: 20px;
 }
