@@ -1,8 +1,7 @@
 <% post.comments.each do |comment| %>
     <div class="mb-2">
         <% if comment.user == current_user %>
-        <%= link_to "Delete comment", comment_path(comment),
-            method: :delete, remote: true, class: "core-sprite delete-comment hide-text" %>
+            <%= link_to "Delete comment", comment_path(comment), method: :delete, remote: true, class: "core-sprite delete-comment hide-text" %>
         <% end %>
         <span><strong><%= comment.user.name %></strong></span>
         <span><%= comment.content %></span>

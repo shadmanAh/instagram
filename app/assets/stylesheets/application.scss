@@ -393,9 +393,16 @@ footer .nav-item {
 
 .bookmark {
     @extend .love;
-    background-position: -150px -353px;
+    background-position: -150px -355px;
     margin-left: auto;
 }
+
+.bookmarked {
+    @extend .love;
+    background-position: -353px -273px;
+    margin-left: auto;
+}
+
 
 .comment-list {
     height: 310px;
